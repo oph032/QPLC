@@ -1,0 +1,501 @@
+[Head]
+	Information:
+		Packege Name	QFBP
+		Packege Type	SC
+		Major Version	2
+		Minor Version	23Z
+		Use Major Version	2
+		Use Minor Version	22Y
+		File Version	1
+	Project:
+		Project Name	e71slmp.epc
+		Project Type	USER
+		Project Comment	
+		Last Update	2024/02/16
+[DATA00]
+	Data Information:
+		XY Address	   0
+	Protocol Data:
+		Use Protocol No	1
+		Protocol Name	0401: Read (word)
+		Protocol Type	0
+		Maker Name	General-purpose protocol
+		Kind Name	Communication protocol
+		Model Type	SLMP(Device Read)
+		Communication Type	2
+		Send Packet No00	1
+		Receive Packet No00	2
+		Receive Packet No01	3
+		Receive Packet No02	NULL
+		Receive Packet No03	NULL
+		Receive Packet No04	NULL
+		Receive Packet No05	NULL
+		Receive Packet No06	NULL
+		Receive Packet No07	NULL
+		Receive Packet No08	NULL
+		Receive Packet No09	NULL
+		Receive Packet No10	NULL
+		Receive Packet No11	NULL
+		Receive Packet No12	NULL
+		Receive Packet No13	NULL
+		Receive Packet No14	NULL
+		Receive Packet No15	NULL
+		Buffer Clear	0
+		Retry Count	0
+		Retry Timer	0
+		Stand by Time	0
+		Watch Time	0
+		Reception Time	0
+	Protocol Macro Data:
+		Macro Notation Version	257
+		Macro Definition File Version	0
+		Macro Maker Number	32512
+		Macro Kind Number	22
+		Macro Model Number	1
+		Macro Version	0
+		Macro Explanation	
+		Macro Protocol No	1
+		Macro Send Packet No00	1
+		Macro Receive Packet No00	2
+		Macro Receive Packet No01	3
+		Macro Receive Packet No02	NULL
+		Macro Receive Packet No03	NULL
+		Macro Receive Packet No04	NULL
+		Macro Receive Packet No05	NULL
+		Macro Receive Packet No06	NULL
+		Macro Receive Packet No07	NULL
+		Macro Receive Packet No08	NULL
+		Macro Receive Packet No09	NULL
+		Macro Receive Packet No10	NULL
+		Macro Receive Packet No11	NULL
+		Macro Receive Packet No12	NULL
+		Macro Receive Packet No13	NULL
+		Macro Receive Packet No14	NULL
+		Macro Receive Packet No15	NULL
+	Packet Data:
+		Use Packet No	1
+		Macro Packet No	1
+		Packet Name	Request
+		Packet Type	0
+	Element Data:
+		Frame Type	24
+		Element Number	1
+		Element Name	(Fixed data)
+		Code Type	2
+		Value	5400
+	Element Data:
+		Frame Type	65
+		Element Number	2
+		Element Name	Serial No.
+		Mode	0
+		Device Code	168
+		Device EX Code	0
+		Device No	50
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	24
+		Element Number	3
+		Element Name	(Fixed data)
+		Code Type	2
+		Value	0000
+	Element Data:
+		Frame Type	65
+		Element Number	4
+		Element Name	Network No.
+		Mode	0
+		Device Code	168
+		Device EX Code	0
+		Device No	51
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	65
+		Element Number	5
+		Element Name	Station No.
+		Mode	0
+		Device Code	168
+		Device EX Code	0
+		Device No	52
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	65
+		Element Number	6
+		Element Name	Requested module I/O No.
+		Mode	0
+		Device Code	168
+		Device EX Code	0
+		Device No	53
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	24
+		Element Number	7
+		Element Name	For future expansion
+		Code Type	2
+		Value	00
+	Element Data:
+		Frame Type	32
+		Element Number	8
+		Element Name	Request data length
+		Code Type	2
+		Data Length	2
+		First Element	9
+		Last Element	14
+		Order Data	1
+	Element Data:
+		Frame Type	65
+		Element Number	9
+		Element Name	Monitoring timer
+		Mode	0
+		Device Code	168
+		Device EX Code	0
+		Device No	54
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	24
+		Element Number	10
+		Element Name	Command
+		Code Type	2
+		Value	0104
+	Element Data:
+		Frame Type	24
+		Element Number	11
+		Element Name	Subcommand
+		Code Type	2
+		Value	0000
+	Element Data:
+		Frame Type	65
+		Element Number	12
+		Element Name	Head device No.
+		Mode	0
+		Device Code	168
+		Device EX Code	0
+		Device No	55
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	3
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	65
+		Element Number	13
+		Element Name	Device code
+		Mode	0
+		Device Code	168
+		Device EX Code	0
+		Device No	57
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	65
+		Element Number	14
+		Element Name	Number of device points
+		Mode	0
+		Device Code	168
+		Device EX Code	0
+		Device No	58
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	0
+	Packet Data:
+		Use Packet No	2
+		Macro Packet No	2
+		Packet Name	Normal response
+		Packet Type	1
+	Element Data:
+		Frame Type	24
+		Element Number	1
+		Element Name	(Fixed data)
+		Code Type	2
+		Value	D400
+	Element Data:
+		Frame Type	65
+		Element Number	2
+		Element Name	Serial No.
+		Mode	0
+		Device Code	168
+		Device EX Code	0
+		Device No	300
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	24
+		Element Number	3
+		Element Name	(Fixed data)
+		Code Type	2
+		Value	0000
+	Element Data:
+		Frame Type	65
+		Element Number	4
+		Element Name	Network No.
+		Mode	0
+		Device Code	168
+		Device EX Code	0
+		Device No	301
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	65
+		Element Number	5
+		Element Name	Station No.
+		Mode	0
+		Device Code	168
+		Device EX Code	0
+		Device No	302
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	65
+		Element Number	6
+		Element Name	Requested module I/O No.
+		Mode	0
+		Device Code	168
+		Device EX Code	0
+		Device No	303
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	24
+		Element Number	7
+		Element Name	For future expansion
+		Code Type	2
+		Value	00
+	Element Data:
+		Frame Type	32
+		Element Number	8
+		Element Name	Response data length
+		Code Type	2
+		Data Length	2
+		First Element	9
+		Last Element	10
+		Order Data	1
+	Element Data:
+		Frame Type	24
+		Element Number	9
+		Element Name	End code
+		Code Type	2
+		Value	0000
+	Element Data:
+		Frame Type	73
+		Element Number	10
+		Element Name	Response data
+		Mode	1
+		Device Code	168
+		Device EX Code	0
+		Device No	304
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1920
+		Storage Unit	0
+		Byte Swap	0
+	Packet Data:
+		Use Packet No	3
+		Macro Packet No	3
+		Packet Name	Error response
+		Packet Type	1
+	Element Data:
+		Frame Type	24
+		Element Number	1
+		Element Name	(Fixed data)
+		Code Type	2
+		Value	D400
+	Element Data:
+		Frame Type	65
+		Element Number	2
+		Element Name	Serial No.
+		Mode	0
+		Device Code	168
+		Device EX Code	0
+		Device No	300
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	24
+		Element Number	3
+		Element Name	(Fixed data)
+		Code Type	2
+		Value	0000
+	Element Data:
+		Frame Type	65
+		Element Number	4
+		Element Name	Network No.
+		Mode	0
+		Device Code	168
+		Device EX Code	0
+		Device No	301
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	65
+		Element Number	5
+		Element Name	Station No.
+		Mode	0
+		Device Code	168
+		Device EX Code	0
+		Device No	302
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	65
+		Element Number	6
+		Element Name	Requested module I/O No.
+		Mode	0
+		Device Code	168
+		Device EX Code	0
+		Device No	303
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	24
+		Element Number	7
+		Element Name	For future expansion
+		Code Type	2
+		Value	00
+	Element Data:
+		Frame Type	32
+		Element Number	8
+		Element Name	Response data length
+		Code Type	2
+		Data Length	2
+		First Element	9
+		Last Element	15
+		Order Data	1
+	Element Data:
+		Frame Type	65
+		Element Number	9
+		Element Name	End code
+		Mode	0
+		Device Code	168
+		Device EX Code	0
+		Device No	304
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	65
+		Element Number	10
+		Element Name	Network No.
+		Mode	0
+		Device Code	168
+		Device EX Code	0
+		Device No	305
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	65
+		Element Number	11
+		Element Name	Station No.
+		Mode	0
+		Device Code	168
+		Device EX Code	0
+		Device No	306
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	1
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	65
+		Element Number	12
+		Element Name	Requested module I/O No.
+		Mode	0
+		Device Code	168
+		Device EX Code	0
+		Device No	307
+		Device EX No	0
+		Device Mod	0
+		Device EX Mod	0
+		Data Length	2
+		Storage Unit	0
+		Byte Swap	0
+	Element Data:
+		Frame Type	24
+		Element Number	13
+		Element Name	For future expansion
+		Code Type	2
+		Value	00
+	Element Data:
+		Frame Type	24
+		Element Number	14
+		Element Name	Command
+		Code Type	2
+		Value	0104
+	Element Data:
+		Frame Type	24
+		Element Number	15
+		Element Name	Subcommand
+		Code Type	2
+		Value	0000
+[END]

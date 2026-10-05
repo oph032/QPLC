@@ -1,7 +1,10 @@
 # QPLC 테스트 환경
 PLC Model	Q13UDVCPU
+
 GX Works 2	Ver 1.635M
+
 GOT	Ver 1.410C
+
 
 # PLC 구조화 프로그래밍의 내용
 이 책은 산업용 자동화 제어에 필수적인 IEC 61131-3 표준 기반의 PLC 프로그램(미쓰비시 Q시리즈 PLC 기준)을 기초부터 실무 응용까지 다루는 실용서입니다.
